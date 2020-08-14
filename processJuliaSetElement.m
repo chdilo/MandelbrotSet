@@ -7,5 +7,5 @@ while count <= maxIterations && magZ <= escapeRadius
     magZ = abs(z);
 end
 magZ = max(abs(z), escapeRadius);
-logCount = log(count - log(log(magZ))/log(pow) + 22);
+logCount = tflog(count,magZ,pow);
 end

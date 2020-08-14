@@ -1,4 +1,5 @@
 function cmap = sky(m)
+% 天空配色
 colors = [
     255  170    0
       0    2    0

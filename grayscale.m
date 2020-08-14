@@ -1,4 +1,5 @@
 function cmap = grayscale(m)
+% 灰阶渐变
 colors = [
     255  255  255
     000  000  000
