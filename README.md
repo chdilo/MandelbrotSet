@@ -16,7 +16,7 @@ GPU计算曼德博集和朱利亚集
 
 ## 朱利亚集
 
-取复平面上的点$z_0$，生成一个数列$\\{z_n\\}$，其中$z_n=z_{n-1}^2+c,(c\in{\mathbb{C}})$，若$\\{z_n\\}$不发散，则点$z_0$属于朱利亚集。下图为$c = -0.77+0.14i$时的朱利亚集。
+取复平面上的点$z_0$，生成一个数列${\displaystyle \{z_n\}}$，其中$z_n=z_{n-1}^2+c,(c \in {\mathbb{C}})$，若$\\{z_n\\}$不发散，则点$z_0$属于朱利亚集。下图为$c = -0.77+0.14i$时的朱利亚集。
 
 ![JuliaSet_1024x576.png](https://raw.githubusercontent.com/chdilo/pictures/master/img/JuliaSet_1024x576.png)
 
