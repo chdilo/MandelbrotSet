@@ -21,3 +21,7 @@ GPU计算曼德博集和朱利亚集
 ![JuliaSet_1024x576.png](https://raw.githubusercontent.com/chdilo/pictures/master/img/JuliaSet_1024x576.png)
 
 [3840x2160](https://raw.githubusercontent.com/chdilo/pictures/master/img/JuliaSet_3840x2160.png)
+
+下图为$c$取不同值时得到的朱利亚集
+
+![](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200815220134.png)
