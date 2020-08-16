@@ -28,4 +28,4 @@ GPU计算曼德博集和朱利亚集
 
 下图为改变$c$点时，朱利亚集的变化
 
-![20200816151324.gif](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200816151324.gif)
+![20200816194113.gif](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200816194113.gif)
