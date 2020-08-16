@@ -138,7 +138,7 @@ end
             'State', 'on', ...
             'Separator', 'on', ...
             'ClickedCallback', @onCrossTextPressed );
-
+        
     end % createGUI
 
 
@@ -179,7 +179,7 @@ end
         data.z0 = z0;
         drawMandelbrotCrosshair( gui.MandelCrosshair, gui.CrossText, data.z0 );
         drawJulia( gui.JuliaImage, data.z, data.z0, data.DoAnimation, data.MaxIterations );
-        % Capture!
+        
         drawnow
     end % updatePosition
 
@@ -195,7 +195,7 @@ end
         data.z = complex( x, y );
         gui.JuliaImage.XData = xlim;
         gui.JuliaImage.YData = ylim;
-
+        
         updatePosition( data.z0 );
     end % onLimitsChanged
 
@@ -210,7 +210,7 @@ end
         z0 = complex( x0, y0 );
         gui.MandelImage.XData = xlim;
         gui.MandelImage.YData = ylim;
-
+        
         drawMandelbrotCrosshair( gui.MandelCrosshair, gui.CrossText, data.z0 );
         drawMandelbrot(gui.MandelImage, z0, data.MaxIterations);
         drawnow
@@ -232,7 +232,7 @@ end
             delta_ylim = ( diff( xlim )*pos(4)/pos(3) - diff( ylim ) ) / 2;
         end
         gui.JuliaAxes.YLim = ylim + delta_ylim*[-1 1];
-
+        
     end % onFigureResize
 
 
@@ -293,7 +293,7 @@ end
     end  % doAnimation
 
 
-    gui.Window.Visible = 'on';
+gui.Window.Visible = 'on';
 end
 
 
