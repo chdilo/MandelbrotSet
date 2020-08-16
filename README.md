@@ -12,7 +12,7 @@ GPU计算曼德博集和朱利亚集
 
 将曼德博集内的点涂成黑色，外部的点根据$\lbrace z_n \rbrace$的发散速度涂成不同颜色，上色方案如下图
 
-![](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200815192850.svg)
+![20200815192850.svg](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200815192850.svg)
 
 ## 朱利亚集
 
@@ -24,4 +24,8 @@ GPU计算曼德博集和朱利亚集
 
 下图为$c$取不同值时得到的朱利亚集
 
-![](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200815220134.png)
+![20200815220134.png](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200815220134.png)
+
+下图为改变$c$点时，朱利亚集的变化
+
+![20200816151324.gif](https://raw.githubusercontent.com/chdilo/pictures/master/img/20200816151324.gif)
