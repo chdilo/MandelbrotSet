@@ -5,8 +5,9 @@ c = -0.77+0.14i;
 maxIterations = 1024; % 最大迭代次数
 width = 1920;
 height = 1080;
+whr = width/height;
 xlim = [-2, 2];
-ylim = [-1.125, 1.125];
+ylim = [-2/whr, 2/whr];
 
 n = 80;
 aa = 4; % 抗锯齿
@@ -52,4 +53,4 @@ for i = 1:size(y,2)
 end
 RGB = [RGB;rot90(RGB,2)];
 imshow(RGB)
-imwrite(RGB,sprintf('JuliaSet_%ux%u.png',width,height),'BitDepth',16)
+% imwrite(RGB,sprintf('JuliaSet_%ux%u.png',width,height),'BitDepth',16)

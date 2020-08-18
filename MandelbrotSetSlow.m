@@ -3,8 +3,10 @@ clear, clc, close all
 maxIterations = 1024; % 最大迭代次数
 width = 1920;
 height = 1080;
-xlim = [-3, 1];
-ylim = [-1.125, 1.125];
+whr = width/height;
+xcenter = -1;
+xlim = [xcenter-2, xcenter+2];
+ylim = [-2/whr, 2/whr];
 
 n = 80;
 aa = 4; % 抗锯齿
@@ -51,5 +53,5 @@ for i = 1:size(y,2)
 end
 RGB = [RGB;flip(RGB)];
 imshow(RGB)
-imwrite(RGB,sprintf('MandelbrotSet_%ux%u.png',width,height),'BitDepth',16)
+% imwrite(RGB,sprintf('MandelbrotSet_%ux%u.png',width,height),'BitDepth',16)
 
