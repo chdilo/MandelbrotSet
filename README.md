@@ -2,6 +2,8 @@
 
 GPU计算曼德博集和朱利亚集
 
+无法加载图片的话，在 hosts 文件中添加`199.232.68.133 raw.githubusercontent.com`，或[点这里](https://gitee.com/chdilo/MandelbrotSet "Gitee")
+
 ## 曼德博集
 
 取复平面上的点$c$，生成一个数列$\lbrace z_n \rbrace$，其中$z_0=0$，$z_n=z_{n-1}^2+c$，若$\lbrace z_n \rbrace$不发散，则点$c$属于曼德博集。
